@@ -8,6 +8,7 @@
 </head>
 <body>
 
+
 <main>
 
   <header class="masthead">
@@ -20,11 +21,11 @@
 
     <div class="sales-group">
 
-      <article class="sales">
+      <article class="sales salesleft">
         <h2 class="sales__title">2013</h2>
         <strong class="sales__total">$5&nbsp;B</strong>
 
-        <aside class="sales__details">
+        <aside class="sales__details sales__detailsleft" data-state="inactive">
          <ul class="chart-list">
             <li>
               <a class="chart-list__link" href="#">1st Quarter</a>
@@ -50,11 +51,11 @@
         </aside>
       </article>
 
-      <article class="sales">
+      <article class="sales salesright">
         <h2 class="sales__title">2014</h2>
         <strong class="sales__total">$6.2&nbsp;B</strong>
 
-        <aside class="sales__details">
+        <aside class="sales__details sales__detailsright data-state="inactive">
          <ul class="chart-list">
             <li>
               <a class="chart-list__link" href="#">1st Quarter</a>
@@ -86,5 +87,7 @@
 
 </main>
 
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
